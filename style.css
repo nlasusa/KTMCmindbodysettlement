@@ -69,9 +69,6 @@ span {
 	display: flex;
 	overflow:hidden;
 }
-.new_card {
-	margin:100px auto;
-}
 .card_desc {
 	width:83%;
 	height:560px;
@@ -140,6 +137,10 @@ span {
 	.card_wrap {
 		top:-200px;
 	}
+
+	.card_desc {
+		width:90%;
+	}
 }
 
 @media only screen and (max-width: 430px) {
@@ -153,6 +154,9 @@ span {
 	.card_wrap {
 		top:-240px;
 		border: none; 
+	}
+	.card_title {
+		font-size:.8em;
 	}
 
 }
