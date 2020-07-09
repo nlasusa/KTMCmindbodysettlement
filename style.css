@@ -12,6 +12,10 @@
 	width:100%;
 	margin:auto;
 }
+
+span {
+	font-weight: bold; 
+}
 .card_wrap {
 	max-width:1240px;
   	display: flex;
