@@ -155,6 +155,7 @@ span {
 	.card {
 		height: 1000px; 
 		border: none; 
+		margin-bottom: 30px; 
 	}
 	/* .card_wrap {
 		top:-240px;
