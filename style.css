@@ -124,13 +124,15 @@ span {
 
 @media only screen and (max-width: 850px) {
 	#page_hero {
-		height:120px;
+		height:140px;
 		width:100%;
 		background:#060618;
 	}
 
 	.card_headline_int {
 		font-size: 19px;
+		margin-top: -10px;
+		padding-bottom: 20px; 
 	}
 
 	.card_headline {
