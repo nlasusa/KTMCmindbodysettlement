@@ -68,6 +68,10 @@ span {
 	margin:0 auto;
 	display: flex;
 	overflow:hidden;
+	padding: 30px; 
+	margin-top: -140px; 
+	margin-bottom: 65px; 
+	content: justify; 
 }
 .card_desc {
 	width:83%;
@@ -116,15 +120,21 @@ span {
 }
 
 
+
+
 @media only screen and (max-width: 850px) {
 	#page_hero {
-		height:300px;
+		height:150px;
 		width:100%;
 		background:#060618;
 	}
 
 	.card_headline_int {
-		font-size: 19px; 
+		font-size: 19px;
+	}
+
+	.card_headline {
+		margin-top: 55px; 
 	}
 
 	.card_title {
@@ -133,13 +143,7 @@ span {
 
 	.card {
 		height: 100%; 
-	}
-	.card_wrap {
-		top:-200px;
-	}
-
-	.card_desc {
-		width:90%;
+		font-size: 18px; 
 	}
 }
 
