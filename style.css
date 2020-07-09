@@ -124,7 +124,7 @@ span {
 
 @media only screen and (max-width: 850px) {
 	#page_hero {
-		height:150px;
+		height:120px;
 		width:100%;
 		background:#060618;
 	}
@@ -138,7 +138,7 @@ span {
 	}
 
 	.card_title {
-		font-size:1em;
+		font-size:.8em;
 	}
 
 	.card {
@@ -150,6 +150,7 @@ span {
 @media only screen and (max-width: 430px) {
 	.card_headline_int {
 		font-size: 17px; 
+		margin-top: 20px; 
 	}
 	.card {
 		height: 1000px; 
