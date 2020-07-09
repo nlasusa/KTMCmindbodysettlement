@@ -80,17 +80,6 @@ span {
 	background:#fff;
 	flex: 1 1 0%;
 }
-.card_img {
-	width:56%;
-	height:560px;
-	margin:0 0;
-	overflow:hidden;
-}
-.card_img_box {
-	width:89%;
-	height:89%;
-	background-size:cover;
-}
 .divine_lorraine {
   background:#434c44;
   float: right; 
