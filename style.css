@@ -80,19 +80,6 @@ span {
 	background:#fff;
 	flex: 1 1 0%;
 }
-.divine_lorraine {
-  background:#434c44;
-  float: right; 
-}
-.divine_lorraine > .card_img_box {
-	background:url('https://i.imgur.com/QSAGGl3.png') no-repeat;
-}
-.gulls_cove {
-	background:#b45c34;
-}
-.gulls_cove > .card_img_box {
-	background:url('https://i.imgur.com/yHTAa12.png') no-repeat;
-}
 .card_desc_int {
 	padding:55px 60px;
 }
@@ -102,12 +89,6 @@ span {
 	font-size:1.2em;
 	text-align: center; 
 	color: black; 
-}
-.card_subtitle {
-	margin:-5px 0px;
-	font-size:0.82em;
-	font-weight:600;
-	color:#dbbd56;
 }
 .card_article {
 	margin:15px 0 0px 0;
@@ -168,9 +149,11 @@ span {
 	}
 	.card {
 		height: 100%; 
+		border: none; 
 	}
 	.card_wrap {
 		top:-240px;
+		border: none; 
 	}
 
 }
