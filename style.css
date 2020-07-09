@@ -1,0 +1,141 @@
+@import url(https://fonts.googleapis.com/css?family=Hind:300,400,600);
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
+*, a {
+	text-decoration: none;
+}
+#page_hero {
+	height:200px;
+	width:100%;
+	background:#060618;
+}
+#page_content {
+	width:100%;
+	margin:auto;
+}
+.card_wrap {
+	max-width:1240px;
+  	display: flex;
+  	flex-wrap: wrap;
+	flex-direction: column;
+	margin:0 auto;
+	position: relative;
+	top:-140px;
+}
+.card_headline {
+	font-family: 'Oswald', sans-serif;
+	margin:auto;
+	width:100%;
+	max-width:1000px;
+	display:flex;
+	flex-direction: row;
+  	justify-content: center;
+	text-align:center;
+	text-transform:uppercase;
+	color:#8db953;
+	letter-spacing:1.2px;
+}
+
+.card_headline_int {
+	font-size: 25px; 
+}
+
+.card_headline::before, .card_headline::after {
+	flex-grow: 1;
+	content: '\a0';
+	height:1px;
+	box-sizing: inherit;
+	position: relative;
+	  top: 1.75em;
+	background:#8db953;
+}
+.card_headline::before {
+	margin:0 1em 0 0;
+}
+.card_headline::after {
+	margin:0 0 0 1em;
+}
+.card_headline_int {
+	margin: 1em 0;
+	font-weight: 300;
+}
+.card {
+	max-width:1000px;
+	width:100%;
+	height:100%;
+	margin:0 auto;
+	display: flex;
+	overflow:hidden;
+}
+.new_card {
+	margin:100px auto;
+}
+.card_desc {
+	width:83%;
+	height:560px;
+	margin:0 auto; 
+	background:#fff;
+	flex: 1 1 0%;
+}
+.card_img {
+	width:56%;
+	height:560px;
+	margin:0 0;
+	overflow:hidden;
+}
+.card_img_box {
+	width:89%;
+	height:89%;
+	background-size:cover;
+}
+.divine_lorraine {
+  background:#434c44;
+  float: right; 
+}
+.divine_lorraine > .card_img_box {
+	background:url('https://i.imgur.com/QSAGGl3.png') no-repeat;
+}
+.gulls_cove {
+	background:#b45c34;
+}
+.gulls_cove > .card_img_box {
+	background:url('https://i.imgur.com/yHTAa12.png') no-repeat;
+}
+.card_desc_int {
+	padding:55px 60px;
+}
+.card_title {
+	letter-spacing:1.45px;
+	font-weight:300;
+	font-size:1.2em;
+	text-align: center; 
+	color: black; 
+}
+.card_subtitle {
+	margin:-5px 0px;
+	font-size:0.82em;
+	font-weight:600;
+	color:#dbbd56;
+}
+.card_article {
+	margin:15px 0 0px 0;
+	font-weight:300;
+	line-height:1.4em;
+}
+.article_link {
+	display:inline-block;
+	text-transform:capitalize;
+	margin:20px 0;
+}
+.fancy_link {
+	text-decoration:none;
+	color:#020;
+	font-weight:600;
+	font-size:0.92em;
+	letter-spacing: 1.25px;
+	border-bottom:1px solid #020;
+}
+.fancy_link:hover {
+	color:#8db953;
+	border-bottom: none; 
+}
+
