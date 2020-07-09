@@ -143,3 +143,25 @@ span {
 	border-bottom: none; 
 }
 
+#page_hero {
+	height:200px;
+	width:100%;
+	background:#060618;
+}
+
+
+@media only screen and (max-width: 850px) {
+	#page_hero {
+		height:300px;
+		width:100%;
+		background:#060618;
+	}
+
+	.card_headline_int {
+		font-size: 19px; 
+	}
+
+	.card_title {
+		font-size:1em;
+	}
+}
