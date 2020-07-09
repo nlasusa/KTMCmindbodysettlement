@@ -156,7 +156,8 @@ span {
 	
 	.card_headline_int {
 		font-size: 17px; 
-		margin-top: 20px; 
+		margin-top: -10px;
+		padding-bottom: 20px; 
 	}
 	.card {
 		height: 1000px; 
