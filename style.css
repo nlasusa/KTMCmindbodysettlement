@@ -68,7 +68,7 @@ span {
 	height:100%;
 	margin:0 auto;
 	display: flex;
-	overflow:hidden;
+	/* overflow:hidden; */
 }
 .new_card {
 	margin:100px auto;
@@ -163,5 +163,9 @@ span {
 
 	.card_title {
 		font-size:1em;
+	}
+
+	.card {
+		height: 100%; 
 	}
 }
